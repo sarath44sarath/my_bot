@@ -36,6 +36,21 @@ def generate_launch_description():
                         arguments=['-topic', 'robot_description',
                                    '-entity', 'my_bot'],
                         output='screen')
+    
+    # to start cotroller- diff_cont
+    diff_drive_spawner = Node(
+        package="controller_manager",
+        executable="spawner",
+        arguments=["diff_cont"],
+    )
+
+    # to start controll manager joint_broad spawner
+    joint_broad_spawner = Node(
+        package="controller_manager",
+        executable="spawner",
+        arguments=["joint_broad"],
+    )
+
 
 
 
@@ -44,4 +59,7 @@ def generate_launch_description():
         rsp,
         gazebo,
         spawn_entity,
+        diff_drive_spawner,
+        joint_broad_spawner
+
     ])
