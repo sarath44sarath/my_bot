@@ -1,0 +1,20 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/tsi/ros2_rbs/build/twist_mux_test",
+        "/home/tsi/ros2_rbs/install/twist_mux_test/lib/python3.10/site-packages",
+        "/home/tsi/ros2_rbs/install/joy_tester/lib/python3.10/site-packages",
+        "/home/tsi/ros2_rbs/build/ball_tracker",
+        "/home/tsi/ros2_rbs/install/ball_tracker/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/tsi/ros2_rbs/build/twist_mux_test",
+        "/home/tsi/ros2_rbs/install/twist_mux_test/lib/python3.10/site-packages",
+        "/home/tsi/ros2_rbs/install/joy_tester/lib/python3.10/site-packages",
+        "/home/tsi/ros2_rbs/build/ball_tracker",
+        "/home/tsi/ros2_rbs/install/ball_tracker/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
